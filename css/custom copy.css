@@ -1,0 +1,11 @@
+body{
+    height:100vh;
+}
+
+header{
+    height:8vh;
+}
+
+footer{
+    height:-92vh;
+}
