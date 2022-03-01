@@ -12,13 +12,13 @@
     <!-- header -->
     <header class="header-section">
         <div class="logo">
-            <img src="./img/logos/wcglogo2.png" alt=""> 
+            <img class="logo-4vh" src="./img/logos/wcglogo2.png" alt=""> 
             <p> | </p> 
-            <img class="logo-ibm" src="./img/logos/IBMLogo_noBckgd.png" alt="">
+            <img class="logo-2vh" src="./img/logos/IBMLogo_noBckgd.png" alt="">
         </div>
         <div class="login-section text-24">
-            <p>log in</p>
-            <div class="btn btn-orange">JOIN</div>
+            <p class="text-underlined text-orange">Log In</p>
+            <div class="btn btn-orange">Join</div>
         </div>
     </header>
     <div class="container">
@@ -35,81 +35,124 @@
         </div>
         <div class="section">
             <section class="first-section">
-                <div class="section-body text-24">
+                <div class="section-body">
                     <img class="section-img" src="./img/frist-section/laptop.png" alt="">
-                    <div class="section-title">
+                    <div class="section-title text-36 text-white text-light">
                         What if you could<br />
                         <b>study bacteria</b><br />
                         while tweeting?
                     </div>
-                    <div class="btn btn-orange">Join 748K volunteers now</div>
+                    <div class="btn btn-orange text-24">Join 748K volunteers now</div>
                 </div>
             </section>
             <section class="second-section">
                 <div class="section-body">
-                    <div class="section-title text-18">
+                    <div class="section-title text-20">
                         Accelerate research with no investment of time or money.
                     </div>
-                    <hr class="line">
-                    <div class="section-content text-24">
-                        When you become a World Community Grid volunteer, you donate your device's spare computing power to help scientists solve the world's biggest problems in health and sustainability.
+                    <hr class="hr-divider">
+                    <div class="section-content">
+                        When you become a 
+                        <b>World Community Grid</b> volunteer, you donate your device's spare computing power to help scientists solve the world's biggest problems in health and sustainability.
                     </div>
                 </div>
             </section>
-            <section class="third-section">
-                <div class="section-bar">challenge</div>
+            <section class="third-section text-white">
+                <div class="section-bar">
+                    <img src="./img/third-section/003-mountain.png" alt="" class="logo-4vh">
+                    <span class="text-light text-white text-24">Challenge</span>
+                    </div>
                 <div class="section-body">
-                    <p class="section-title">Scientists need help</p>
-                    <div class="section-content">
-                        <p>
+                    <p class="section-title text-bold text-white text-36">Scientists need help</p>
+                    <img src="./img/third-section/boobaloo-Compass-300px.png" alt="" class="img-10p">
+                    <div class="section-content text-24">
+                        <p class="text-normal">
                             They’re searching the microscopic world for answers to our biggest problems, but it’s hard to know
                             where to start. That’s why many use computer simulations to point them in the right direction, just
                             as explorers rely on maps to find their way.
                         </p>
                         <p class="text-bold">
                             Finding answers is tough, and without more computers, doing scientific research can be a bit like
-                            exploring with an incomplete ma
+                            exploring with an incomplete map
                         </p>
                     </div>
                 </div>
             </section>
             <section class="forth-section">
                 <div class="section-body">
+                    <div class="section-title forth-titles">With the power of World Community Grid, researchers have...</div>
                     <!-- 자바스크립트로 구현해주자 총 3개씩-->
-                    <div class="section-title forth-titles"></div>
-                    <div class="section-timer"></div>
-                    <div class="section-content forth-content"></div>
+                    <hr class="section-timer"></hr>
+                    <div class="section-content forth-content">
+                        ...identified new drug candidates in the fight against neuroblastoma - a childhood cancer.
+                    </div>
+                    <div class="section-content forth-content">
+                       ...discovered how nanotechnology could help provide clean water to millions.
+                    </div>
+                    <div class="section-content forth-content">
+                       ...discovered new compounds for harnessing solar power.
+                    </div>
                 </div>
             </section>
-            <section class="fifth-section">
-                <div class="section-menu-group">
-                    <div class="section-menu">Gut Microbiome</div>
-                    <div class="section-menu">Cancer</div>
-                    <div class="section-menu">Zika</div>
-                    <div class="section-menu">TB</div>
-                    <div class="section-menu">AIDS</div>
+            <section class="fifth-section" id="fifth">
+                <div class="section-menu-group text-white text-bold text-24" id="fifth-menu">
+                    <div class="section-menu">
+                        <img class="logo-3vh" src="./img/fifth-section/bacteria_white.png" alt="">
+                        <p>Gut Microbiome</p>
+                    </div>
+                    <div class="section-menu">
+                        <img class="logo-3vh" src="./img/fifth-section/awarenessRibbon.png" alt="">
+                        <p>Cancer</p>
+                    </div>
+                    <div class="section-menu">
+                        <img class="logo-3vh" src="./img/fifth-section/mosquito.png" alt="">
+                        <p>Zika</p>
+                    </div>
+                    <div class="section-menu">
+                        <img class="logo-3vh" src="./img/fifth-section/lungs.png" alt="">
+                        <p>TB</p>
+                    </div>
+                    <div class="section-menu">
+                        <img class="logo-3vh" src="./img/fifth-section/virusicon.png" alt="">
+                        <p>AIDS</p>
+                    </div>
                 </div>
                 <div class="section-body">
-                    <div class="section-title fifth-titles">Your device could help...</div>
+                    <div class="section-title">Your device could help...</div>
+                    <!-- 가변 -->
                     <div class="section-content fifth-content">
-                        <img src="" alt="">
-                        <div class="content-title"></div>
-                        <div class="content-content"></div>
+                        <img class="img-10p" src="./img/fifth-section/bacteria_white.png" alt="">
+                        <div class="content-title text-light text-36">...understand how the bacteria in our bodies may help cause disease.
+                        </div>
+                        <div class="content-content text-36">Researchers are using World Community Grid for a comprehensive study of the human microbiome, the trillions of bacteria in and all over our bodies.
+                        </div>
                     </div>
-                    <div class="btn">JOIN NOW</div>
+                    <div class="btn btn-orange">JOIN NOW</div>
                 </div>
             </section>
             <section class="sixth-section">
-                <div class="section-menu-group">
-                    <div class="section-menu">Performance</div>
-                    <div class="section-menu">battery iconBattery</div>
-                    <div class="section-menu">lock iconSecurity</div>
-                    <div class="section-menu">signal transmission iconData</div>
+                <div class="section-menu-group" id="sixth-menu">
+                    <div class="section-menu">
+                        <img class="logo-3vh" src="./img/sixth-section/performance.png" alt="">
+                        <p>Performance</p>
+                    </div>
+                    <div class="section-menu">
+                        <img class="logo-3vh" src="./img/sixth-section/battery.png" alt="">
+                        <p>Battery</p>
+                    </div>
+                    <div class="section-menu">
+                        <img class="logo-3vh" src="./img/sixth-section/security.png" alt="">
+                        <p>Security</p>
+                    </div>
+                    <div class="section-menu">
+                        <img class="logo-3vh" src="./img/sixth-section/data-1.png" alt="">
+                        <p>Data</p>
+                    </div>
                 </div>
-                <div class="section-content">
-                    <div class="content-title">Unobtrusive</div>
+                <div class="section-body">
+                    <div class="section-title">Unobtrusive</div>
                     <img src="" alt="">
-                    <div class="content-content">
+                    <div class="section-content">
                         <p class="text-bold">Your device could help...</p>
                         <p class="text-plain">Our software monitors your device’s performance, so whatever you are doing on your device, it stays out of the way.
                         </p>
@@ -118,68 +161,87 @@
             </section>
             <section class="seventh-section">
                 <div class="section-body">
-                    <div class="section-title"></div>
+                    <div class="section-title text-bold text-30">While you were learning about World Community Grid...
+                    </div>
                     <div class="section-content">
-
-                        <div class="btn"></div>
+                        <img class="section-img" src="./img/seventh-section/24-hours.png" alt="">
+                        <div class="text-light text-18">
+                            ...your device could have analyzed
+                            <br/>
+                            <p class="text-bold text-blue text-30">potential cancer signatures</p>
+                            for the Mapping Cancer Markers project.
+                        </div>
+                        <div class="btn btn-orange">Join now and start helping today</div>
                     </div>
                 </div>
             </section>
             <section class="eighth-section">
                 <div class="section-body">
-                    <!-- 자바스크립트로 구현해주자 총 3개씩-->
-                    <div class="section-title">Attribution</div>
+                    <div class="section-title text-36 text-bold">Attribution</div>
                     <div class="section-content">
-                        Section 1
-                        Image of researcher by Lucas Vasques on unsplash.com
+                        <div>
+                            Section 1
+                            Image of researcher by Lucas Vasques on unsplash.com
+                        </div>
+                        <div>
+                            
+                            Section 2, Introduction
+                            Photo of climber by Jackson Hendry on unsplash.com
+                        </div>
+                        
+                        <div>
+                            Section 3
+                            Icons in section 3 made by Lucy G from flaticon.com is licensed by CC 3.0 BY 
+                            Background image of DNA Designed by Freepik
+                        </div>
+                        <div>
 
-                        Section 2, Introduction
-                        Photo of climber by Jackson Hendry on unsplash.com
+                            Section 4
+                            Image of happy child by MI PHAM via unsplash.com
 
-                        Section 3
-                        Icons in section 3 made by Lucy G from flaticon.com is licensed by CC 3.0 BY
+                            Image of water splash by Amritanshu Sikdar via unsplash.com
 
-                        Background image of DNA Designed by Freepik
+                            Image of solar array by American Public Power Association via unsplash.com
+                        </div>                            
+                        <div>
 
-                        Section 4
-                        Image of happy child by MI PHAM via unsplash.com
+                            Section 5, Current Projects
+                            Bacteria icon designed by Voysla on flaticon.com
 
-                        Image of water splash by Amritanshu Sikdar via unsplash.com
+                            Ribbon icon designed by Freepik on flaticon.com
 
-                        Image of solar array by American Public Power Association via unsplash.com
+                            Mosquito icon by Freepik on flaticon.com
 
-                        Section 5, Current Projects
-                        Bacteria icon designed by Voysla on flaticon.com
+                            Lungs icon by Roundicons on flaticon.com
 
-                        Ribbon icon designed by Freepik on flaticon.com
+                            Virus icon by Freepik on flaticon.com
 
-                        Mosquito icon by Freepik on flaticon.com
+                            Cholera background image by Sanofi Pasteur on Flickr
 
-                        Lungs icon by Roundicons on flaticon.com
+                            Mosquito background image by Adam Hilliker on Flickr
 
-                        Virus icon by Freepik on flaticon.com
+                            Drugs background image by @qimono on pixabay.com
 
-                        Cholera background image by Sanofi Pasteur on Flickr
+                            Girl in hospital background image by @rubenperez on Flickr
 
-                        Mosquito background image by Adam Hilliker on Flickr
+                            HIV/AIDS ribbon background image by World Bank on Flickr
+                        </div>
+                        <div>
+                            Section 6
+                            CPU icon designed by Becris on flaticon.com
 
-                        Drugs background image by @qimono on pixabay.com
+                            Laptop with battery icon designed by Freepik on flaticon.com
 
-                        Girl in hospital background image by @rubenperez on Flickr
+                            Locked file folder icon designed by Freepik on flaticon.com
 
-                        HIV/AIDS ribbon background image by World Bank on Flickr
+                            Smartphone-with-wifi icon designed by Freepik on flaticon.com
 
-                        Section 6
-                        CPU icon designed by Becris on flaticon.com
+                        </div>
+                        <div>
+                            Section 7
+                            24-hour clock icon designed by Freepik on flaticon.com
 
-                        Laptop with battery icon designed by Freepik on flaticon.com
-
-                        Locked file folder icon designed by Freepik on flaticon.com
-
-                        Smartphone-with-wifi icon designed by Freepik on flaticon.com
-
-                        Section 7
-                        24-hour clock icon designed by Freepik on flaticon.com
+                        </div>
                     </div>
                 </div>
             </section>
@@ -192,5 +254,6 @@
     </footer>
   
 </body>
+<script src="index.js"></script>
 </html>
 

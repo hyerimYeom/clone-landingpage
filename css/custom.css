@@ -1,224 +1,78 @@
 body{
     font-size:18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* word-spacing: 1; */
+    letter-spacing: 0.025rem;
 }
-
-
-
-
 /* text */
 .text-24{
     font-size: 24px;
+}
+
+.text-30{
+    font-size: 30px;
+}
+
+.text-36{
+    font-size: 36px;
+}
+
+.text-20{
+    font-size: 20px;
 }
 
 .text-18{
     font-size: 18px;
 }
 
+.text-underlined{
+    text-decoration: underline;
+}
+
+.text-orange{
+    color:#FF6347;
+}
+
+.text-blue{
+    color:#5596E6;
+}
+
+.text-white{
+    color:#FFF;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-light{
+    font-weight: lighter;
+}
+
+.text-normal{
+    font-weight: 300;
+}
+/* img */
+
+.img-10p{
+    width : 10%;
+}
 /* btn */
 .btn{
     text-align: center;
-    padding:0.5em;
+    padding : 5px 15px;
 }
 
 .btn-orange{
-    background-color: orange;
+    background-color: #FF6347;
+    color:white;
 }
 
-/* header */
-.header-section{
-    width: 100%;
-    top : 0;
-    height : 8vh;
-    display: flex;
-    background-color: rgb(223, 223, 223);
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
-    position:fixed;
-    z-index: 20;
+.btn-orange:hover{
+    background-color:white;
+    color:#FF6347;
 }
 
-.logo {
-    padding : 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.logo > img{
-    padding : 0 10px; 
-    max-height : 3vh;
-}
-/* 
-.logo-ibm{
-    max-height : 2vh;
-} */
-
-.login-section{
-    padding : 0 20px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    /* font-family: Arial, sans-serif; */
-    /* padding-right: 1.5%; */
-}
-
-.login-section > p {
-    padding : 0 20px 0 0 ;
-}
-
-/* section */
-section{ 
-    text-align: center;
-}
-
-hr{
-    border: none;
-    border-top: 3px double #333;
-    color: #333;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
-}
-
-.section-img{
-    width:50%;
-}
-
-.section-body{
-    margin: 0 300px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.first-section{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,255,0.45),rgba(0,0,255,0.45)), url(../img/frist-section/lucas-vasques-9vnACvX2748-unsplash.jpg);
-    min-height:calc(100vh);
-}
-
-.second-section{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-image: url(../img/frist-section/lucas-vasques-9vnACvX2748-unsplash.jpg);
-    min-height:calc(100vh);
-}
-
-.third-section {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content : center;
-    height: 100%;
-    background-image: url(../img/frist-section/lucas-vasques-9vnACvX2748-unsplash.jpg);
-    min-height:calc(100vh - 8vh);
-}
-.third-section > .section-bar{
-    background-color:aqua;
-    width:100%;
-    height: 5vh;
-}
-
-.third-section > .section-body{
-    flex-grow: 1;
-    height: 80vh;
-}
-
-.forth-section{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-image: url(../img/frist-section/lucas-vasques-9vnACvX2748-unsplash.jpg);
-    min-height:calc(100vh - 8vh);
-}
-
-.fifth-section{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-image: url(../img/frist-section/lucas-vasques-9vnACvX2748-unsplash.jpg);
-    min-height:calc(100vh - 8vh);
-}
-
-.fifth-section > .section-menu-group{
-    height : 100px;
-    width:100%;
-    display : flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: aqua;
-}
-.fifth-section > .section-menu-group > .section-menu{
-    
-}
-.fifth-section > .section-body{
-    /* height:95vh; */
-    flex-grow:1;
-}
-
-
-.sixth-section{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-image: url(../img/frist-section/lucas-vasques-9vnACvX2748-unsplash.jpg);
-    min-height:calc(100vh - 8vh);
-}
-
-.seventh-section{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-image: url(../img/frist-section/lucas-vasques-9vnACvX2748-unsplash.jpg);
-    min-height:calc(100vh);
-}
-
-.eighth-section{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: stretch;
-    height: 100%;
-    background-image: url(../img/frist-section/lucas-vasques-9vnACvX2748-unsplash.jpg);
-    min-height:calc(100vh - 8vh);
-
-}
-
-footer{
-    bottom: 0;
-    width: 100%;
-    height: 4vh;
-    position: fixed;
-    /* background-color: aqua; */
-    z-index: 20;
-}
 
 .container{
     display: relative;
@@ -245,4 +99,318 @@ footer{
 
 .dot::after{
 
+}
+
+/* header */
+.header-section{
+    width: 100%;
+    top : 0;
+    height : 8vh;
+    display: flex;
+    background-color: rgb(223, 223, 223);
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    position:fixed;
+    z-index: 20;
+}
+
+.logo {
+    padding : 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo > img{
+    padding : 0 10px; 
+}
+.logo-4vh{
+    max-height : 4vh;
+}
+
+.logo-2vh{
+    max-height : 2vh;
+}
+.logo-3vh{
+    max-height : 3vh;
+}
+
+.login-section{
+    padding : 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* font-family: Arial, sans-serif; */
+    /* padding-right: 1.5%; */
+}
+
+.login-section > p {
+    padding : 0 20px 0 0 ;
+}
+
+/* section */
+section{ 
+    text-align: center;
+}
+
+hr.hr-divider{
+    width: 40%;
+    border: none;
+    border-top: 2px solid #000;
+    color: #000;
+    overflow: visible;
+    text-align: center;
+    /* line-height: 16px; */
+}
+
+hr.section-timer{
+    width: 80%;
+    border: none;
+    border-top: 2px solid #000;
+    color: #000;
+    overflow: visible;
+    text-align: center;
+    /* line-height: 16px; */
+}
+
+
+.section-body{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section-title{
+    margin : 30px 0;
+}
+
+.section-content > .btn {
+    margin : 30px 0;
+}
+
+/* 1st */
+.first-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,255,0.45),rgba(0,0,255,0.45)), url(../img/frist-section/lucas-vasques-9vnACvX2748-unsplash.jpg) no-repeat top/100%;
+    min-height:calc(100vh);
+}
+
+/* .first-section > .section-body > .section-title{
+} */
+
+.first-section > .section-body > .section-img{
+    max-width: 40%;   
+    margin-bottom: -30px;
+}
+
+
+/* 2nd */
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(rgba(255, 217, 0, 0.8), rgba(255, 217,0, 0.8)), url(../img/second-section/nico-smit-HOGSgvuaYV4-unsplash.jpg) repeat-y bottom/100%;
+    min-height:calc(100vh);
+}
+
+.second-section > .section-body > .section-content{
+    font-size: 1.8rem;
+    margin : 0 220px;
+
+}
+
+.second-section > .section-body > hr{
+    margin:20px 0;
+}
+
+
+/* 3rd */
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content : center;
+    height: 100%;
+    background : linear-gradient(rgba(86, 83, 240, 0.8), rgba(41, 34, 104, 0.8)), url(../img/third-section/dna-helix.jpg) no-repeat center/100%;
+    min-height:calc(100vh - 8vh);
+}
+
+.third-section > .section-bar{
+    height: 8vh;
+    width:100%;
+
+    border-bottom: 1px solid white;
+    background-color:#4169E1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section > .section-bar > img{
+    padding : 0 5px;
+}
+
+.third-section > .section-body{
+    flex-grow: 1;
+    height: 80vh;
+}
+
+.third-section > .section-body > .section-content{
+    margin : 0 220px;
+}
+
+.forth-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(rgba(25, 25, 26, 0.8), rgba(28, 28, 29, 0.8)), url(../img/forth-section/amritanshu-sikdar-LoGnr-w1D8E-unsplash.jpg) no-repeat center/150%;
+    /* background-size: cover; */
+    min-height:calc(100vh - 8vh);
+}
+
+.forth-titles{
+    position: relative;
+}
+.forth-titles{
+    color: white;
+    font-size: 1.75em;
+    font-weight: 500;
+    top: 50px;
+    animation: shiftUp 3s linear 1s forwards;
+}
+
+@keyframes shiftUp {
+    0% {
+        top: 50px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: url(../img/fifth-section/26613653799_17dc53a8e9_b.jpg) no-repeat center/100%;
+    min-height:calc(100vh - 8vh);
+}
+
+.fifth-section > .section-menu-group{
+    height : 5vh;
+    width:100%;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fifth-section > .section-menu-group > .section-menu > p{
+    padding: 0 20px;
+}
+.fifth-section > .section-menu-group > .section-menu{
+    background-color: #2E75CF;
+    width : 100%;
+    border-right : 1px solid white;
+    border-left : 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.fifth-section > .section-body{
+    /* height:95vh; */
+    flex-grow:1;
+}
+
+.sixth-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #FFD700;
+    min-height:calc(100vh - 8vh);
+}
+
+.sixth-section > .section-menu-group{
+    height : 5vh;
+    width:100%;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-color: #FFF;
+    
+}
+.sixth-section > .section-menu-group > .section-menu > p{
+    padding: 0 20px
+}
+.sixth-section > .section-menu-group > .section-menu{
+    width : 100%;
+    border-right : 1px solid #FFD700;;
+    border-left : 1px solid #FFD700;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.sixth-section > .section-body{
+    /* height:95vh; */
+    flex-grow:1;
+}
+
+.seventh-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   background-color: white;
+    min-height:calc(100vh);
+}
+
+
+.eighth-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: stretch;
+    height: 100%;
+    background-color: rgb(200,210,210);
+    min-height:calc(100vh - 8vh);
+
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 4vh;
+    position: fixed;
+    /* background-color: aqua; */
+    z-index: 20;
 }
